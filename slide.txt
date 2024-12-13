@@ -1,0 +1,53 @@
+lide 1: Introduction to MongoDB (NoSQL)
+Definition: MongoDB is a NoSQL database designed to handle unstructured data and allows flexibility with its schema.
+Key Features:
+Document-oriented: Stores data in flexible, JSON-like documents.
+Scalability: Built for horizontal scaling, making it easy to handle large amounts of data.
+Schema-less: No predefined schema, meaning each document can have a different structure.
+High Performance: Provides efficient read/write operations for large datasets.
+Popular Use Cases: Real-time analytics, IoT data storage, content management systems.
+Slide 2: Introduction to SQL Databases
+Definition: SQL (Structured Query Language) databases are relational databases that use a structured schema to store data in tables.
+Key Features:
+Table-based: Data is organized in tables with rows and columns.
+ACID Compliance: Supports transactions with strong consistency (Atomicity, Consistency, Isolation, Durability).
+Schema-based: Requires predefined schemas, meaning all data must adhere to the structure.
+SQL Queries: Uses SQL for querying data (e.g., SELECT, INSERT, UPDATE).
+Popular Use Cases: Banking systems, customer relationship management (CRM), enterprise applications.
+Slide 3: Comparison – Data Storage Model
+MongoDB (NoSQL):
+Stores data as documents in collections.
+Data can be nested and may vary in structure (e.g., nested JSON objects).
+No need for predefined schemas.
+SQL:
+Stores data in tables with rows and columns.
+Each table must follow a predefined schema.
+Data must conform to the column structure (data types, relationships, etc.).
+Summary:
+
+MongoDB: Flexible, allows complex, unstructured data storage.
+SQL: Structured, with data integrity enforced through schemas.
+Slide 4: Comparison – Scalability
+MongoDB (NoSQL):
+Horizontal Scaling: Can scale out by adding more servers (sharding).
+Distributed data architecture for handling massive amounts of data and traffic.
+SQL:
+Vertical Scaling: Typically scales by adding more CPU, memory, or storage to a single server.
+Scaling out (horizontal scaling) in SQL is more complex and requires advanced techniques like database partitioning or clustering.
+Summary:
+
+MongoDB: Excellent for handling large-scale applications with high traffic.
+SQL: Better suited for applications with moderate data sizes but may struggle with extreme scalability.
+Slide 5: Comparison – Use Cases and Performance
+MongoDB (NoSQL):
+Ideal for applications with variable data models (e.g., e-commerce platforms, social media apps).
+Suitable for high-volume, real-time analytics, and IoT data.
+High performance in situations requiring fast reads and writes.
+SQL:
+Ideal for applications with structured data and complex relationships (e.g., banking systems, payroll).
+Strong consistency and support for complex transactions.
+Better for small-to-medium-sized datasets with a need for high data integrity.
+Summary:
+
+MongoDB: Best for dynamic, rapidly changing applications.
+SQL: Best for applications requiring strict data consistency and structured data.
